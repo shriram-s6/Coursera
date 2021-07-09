@@ -1,4 +1,4 @@
-Coursera Project - Sentimental Analysis using Fake twitter data
+Coursera Project - Sentimental Analysis using Fake twitter data using python
 
 We have provided some synthetic (fake, semi-randomly generated) twitter data in a csv file named project_twitter_data.csv 
 which has the text of a tweet, the number of retweets of that tweet, and the number of replies to that tweet. 
