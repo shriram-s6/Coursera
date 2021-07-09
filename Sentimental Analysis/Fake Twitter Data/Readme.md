@@ -9,3 +9,17 @@ You will create a csv file, which contains columns for the Number of Retweets, N
 (which is how many happy words are in the tweet),Negative Score (which is how many angry words are in the tweet),
 and the Net Score for each tweet. 
 At the end, you upload the csv file to Excel or Google Sheets, and produce a graph of the Net Score vs Number of Retweets.
+
+Inputs:
+
+positive_words.txt will have all the positive words.
+negative_words.txt will have all the negative words.
+project_twitter_data.csv will have the tweet_text,retweet_count,reply_count as column name which will be used for the sentimental analysis.
+
+sentimentClassifier.py - will have the python code used to analyse the project_twitter_data.csv data and produce resulting_data.csv
+scatterPlot.py - will have the python code used to produce a graph of the Net Score vs Number of Retweets scatter plot using Matplotlib
+
+Output:
+
+resulting_data.csv will be the output file after our analysis with Number of Retweets,Number of Replies,Positive Score,Negative Score,Net Score as header.
+SentimentalAnalysis.png is the plot of Net Score vs Number of Retweets from the resulting_data.csv
