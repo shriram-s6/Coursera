@@ -52,3 +52,4 @@ with open('project_twitter_data.csv', 'r') as proj_twitter_file:
         resulting_data_file.write(
             '{},{},{},{},{}'.format(retweet_count, reply_count, positive_score, negative_score, net_score))
         resulting_data_file.write('\n')
+
